@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MGCodeTestFundLib.Benchmark" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAQAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Concrete\Benchmark.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MGCodeTestFundLib.PerformanceIndicator" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAQAQAAgAAAAAAAgAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Concrete\BenchmarkIndexTracker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MGCodeTestFundLib.Fund" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAASAAAAAAAAAAAAAQEQEgAAARAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Fund.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MGCodeTestFundLib.FundManager">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIgAAAgEAAAAIgAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>FundManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MGCodeTestFundLib.Stock" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAACAA=</HashCode>
+      <FileName>Concrete\Stock.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MGCodeTestFundLib.StockPosition" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIQAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Concrete\StockPosition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MGCodeTestFundLib.Repo.BenchmarkRepo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAEQAABAAAIAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Repo\BenchmarkRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MGCodeTestFundLib.Repo.FundRepo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAEQAABAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repo\FundRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="7.75" Y="1" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="MGCodeTestFundLib.Contracts.IBenchmark" Collapsed="true">
+    <Position X="0.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAQAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IBenchmark.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MGCodeTestFundLib.Contracts.IRepo&lt;T&gt;" Collapsed="true">
+    <Position X="2.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAABAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IRepo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MGCodeTestFundLib.Contracts.IStock" Collapsed="true">
+    <Position X="4.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Contracts\IStock.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MGCodeTestFundLib.Contracts.IStockPosition" Collapsed="true">
+    <Position X="6" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIQAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IStockPosition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
